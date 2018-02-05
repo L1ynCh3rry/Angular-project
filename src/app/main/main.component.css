@@ -1,0 +1,7 @@
+.interests .fa{
+    font-size: 40px !important;
+    transition: 0.5s linear;
+}
+.interests .fa:hover{
+    transform: rotateX(360deg);
+}

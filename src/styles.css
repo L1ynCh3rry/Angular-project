@@ -29,24 +29,6 @@ a:hover{
     padding: 0 !important;
     margin: 0 !important;
 }
-.rayhanSection{
-    position: relative;
-}
-.rayhanSection .rayhan{
-    position: absolute;
-    top: 70%;
-    left: 55%;
-}
-.rayhan h2{
-    font-size: 1.25rem;
-}
-.rayhan h3{
-    font-size: 0.75rem;
-}
-.rayhanSection .rayhan h2,
-.rayhanSection .rayhan h3{
-    color: white;
-}
 .row.personInfo{
     padding-top: 20px;
 }
@@ -62,122 +44,32 @@ a:hover{
 .fontbig{
     font-size: 40px;
 }
-.skillz .fa{
-    font-size: 16px!important;
-}
-.skill{
-    position: relative;
-    height: 5px;
-    border-radius: 3px;
-    background: #ccc !important;
-}
-.skill .achieviment{
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: white;
-    width: 0%;
-    height: 5px;
-    border-radius: 3px;
-    transition: 1s linear;
-}
-.skill .achieviment span{
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: white;
-    right: -7px;
-    top: -4.5px;
-}
 .positionR{
     position: relative;
 }
-.toggle-menu{
-    cursor: pointer;
-    padding: 7px 5px;
-    border: 2px solid black;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 10;
+/* FORM CONTACT */
+.form-contact input,
+.form-contact textarea{
+    border-bottom: 2px solid #961313!important;
+    border-left: 2px solid #961313!important;
+    border-top: 2px solid transparent!important;
+    border-right: 2px solid transparent!important;
+    box-shadow: none;
     border-radius: 2px;
-    background: rgba(255,255,255,0.9);
 }
-.toggle-menu span{
-    display: block;
-    height: 2px;
-    width: 20px;
-    background: black;
-    margin-bottom: 3px;
+.form-contact input:focus,
+.form-contact textarea:focus{
+    border: 2px solid #961313!important;
 }
-.toggle-menu span:last-of-type{
-    margin-bottom: 0;
+.form-contact .btn{
+    cursor: pointer;
 }
-.menu-overlay{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.5);
-    top: 0;
-    left: 0;
-    z-index: 15;
-    display: none;
-}
-.menu{
-    position: fixed;
-    left: -120%;
-    top: 0;
-    z-index: 20;
-    transition: 0.3s ease;
-}
-.menu.active{
-    left: 0px;
-}
-.menu .side-menu{
-    height: 100vh;
-    min-width: 300px;
-
-}
-
-.menu .side-menu a{
-    display: block;
-    color: #fff;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding: 2px 0;
-    padding-left: 5px;
-    border-left: 2px solid transparent;
-    transition: 0.4s linear;
-}
-.menu .side-menu a:hover{
-    border-left: 2px solid white;
-}
-.menu .side-menu{
-    padding-top: 10px;
-}
-
-
-
-
-
-
-
-
-
-
 /*---------- RIGHT SITE SIDE -----------*/
 .rightSiteSide,
 .gallery{
     margin: 10px 5px 10px;
 }
-.interests .fa{
-    font-size: 20px !important;
-    transition: 0.5s linear;
-}
-.interests .fa:hover{
-    transform: rotateX(360deg);
-}
+
 .redtext{
     color: #961313 !important;
 }
@@ -201,15 +93,8 @@ a:hover{
 .insetsb:hover{
     box-shadow: 0 0 5px #fff inset;
 }
-
-
-.masonery{
-    position: relative;
-}
 .figurenomargin{
     margin-bottom: 0px!important;
-}
-img.width100{
 }
 .maxheightfigure{
     height: 100%!important;
@@ -217,19 +102,6 @@ img.width100{
 .overflowhidden{
     overflow: hidden;
 }
-
-
-/* ------------ MAP ------------ */
-#map_wrapper {
-    height: 400px;
-}
-
-#map {
-    width: 100%;
-    height: 100%;
-}
-
-
 /* R----------- RESPONSIVE ---------- */
 .h2respo{
     font-size: 1.5rem;
@@ -243,26 +115,6 @@ img.width100{
 .pnomargin{
     margin-bottom: 0!important;
 }
-
-
-/* FORM CONTACT */
-.form-contact input,
-.form-contact textarea{
-    border-bottom: 2px solid #961313!important;
-    border-left: 2px solid #961313!important;
-    border-top: 2px solid transparent!important;
-    border-right: 2px solid transparent!important;
-    box-shadow: none;
-    border-radius: 2px;
-}
-.form-contact input:focus,
-.form-contact textarea:focus{
-    border: 2px solid #961313!important;
-}
-.form-contact .btn{
-    cursor: pointer;
-}
-
 /* BUTTON HOVER*/
 .hvr-shutter-in-vertical{
     color: #961313;
@@ -285,24 +137,10 @@ img.width100{
 
 
 
-img.mh215{
-    max-height: 215px;
-}
-img.mh255{
-    max-height: 255px;
-}
 
 
-/* PORTFOLIO LINKED TEXT */
-.linkedtext h2{
-    color: white;
-    border-bottom: 1px solid transparent;
-    transition: 0.6s ease;
-}
-.linkedtext:hover h2{
-    color: white;
-    border-bottom: 1px solid white!important;
-}
+
+
 
 
 

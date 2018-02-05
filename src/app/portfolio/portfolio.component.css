@@ -1,0 +1,19 @@
+.masonery{
+    position: relative;
+}
+img.mh215{
+    max-height: 215px;
+}
+img.mh255{
+    max-height: 255px;
+}
+/* PORTFOLIO LINKED TEXT */
+.linkedtext h2{
+    color: white;
+    border-bottom: 1px solid transparent;
+    transition: 0.6s ease;
+}
+.linkedtext:hover h2{
+    color: white;
+    border-bottom: 1px solid white!important;
+}
