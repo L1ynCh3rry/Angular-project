@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 
 
@@ -15,7 +14,7 @@ import { AsideComponent } from './aside/aside.component';
 import { ToggleMenuComponent } from './toggle-menu/toggle-menu.component';
 import { FooterComponent } from './footer/footer.component';
 
-
+import { AgmCoreModule } from '@agm/core';
 
 const appRoutes: Routes = [
   {
@@ -47,12 +46,6 @@ const appRoutes: Routes = [
 
 
 
-
-
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -68,7 +61,10 @@ const appRoutes: Routes = [
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
-    BrowserModule
+    BrowserModule,
+    AgmCoreModule.forRoot({
+      apiKey: ''
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

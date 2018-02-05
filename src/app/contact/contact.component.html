@@ -6,7 +6,9 @@
                                     <div class="col-12 text-center">
                                         <article>
                                             <div id="map_wrapper">
-                                                <div id="map"></div>
+                                              <agm-map [latitude]="lat" [longitude]="lng">
+                                                    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+                                              </agm-map>
 
                                             </div>
 
@@ -31,32 +33,30 @@
 
 
 
-                                                <!----------------- CONTACT FORM -------------------->
+                                                <!-- CONTACT FORM -->
                                                 <form class="form-contact" method="post" action="">
-                                                    <div class="form-group">
-                                                        <label>Name*</label>
-                                                        <input name="name" value="" class="form-control">
-                                                        <div class="error"></div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Email*</label>
-                                                        <input name="email" value="" class="form-control" >
-                                                        <div class="error"></div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Message*</label>
-                                                        <textarea name="message" class="form-control"></textarea>
-                                                        <div class="error"></div>
-                                                    </div>
-                                                    <button type="submit" class="btn hvr-shutter-in-vertical">SUBMIT</button>
-                                                </form>
+                                                   <div class="form-group">
+                                                       <label>Your Name*</label>
+                                                       <input name="name" value="" class="form-control">
+                                                       <div class="error"></div>
+                                                   </div>
+                                                   <div class="form-group">
+                                                       <label>Enter your Email address</label>
+                                                       <input name="email" value="" class="form-control" >
+                                                       <div class="error"></div>
+                                                   </div>
+                                                   <div class="form-group">
+                                                       <label>Message*</label>
+                                                       <textarea name="message" class="form-control"></textarea>
+                                                       <div class="error"></div>
+                                                   </div>
+                                                   <button type="submit" class="btn hvr-shutter-in-vertical">SUBMIT</button>
+                                               </form>
 
 
 
                                             </div>
                                         </div>
-
-
 
                                     </div>
                                 </div>
