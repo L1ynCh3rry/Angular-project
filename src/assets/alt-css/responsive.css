@@ -7,8 +7,8 @@
 }
  .rayhanSection .rayhan{
     left: 45%;
-}   
-    
+}
+
 }
 @media(min-width:576px){
  .rayhan h2{
@@ -31,14 +31,11 @@
 .h3respo{
     font-size: 1.2rem;
 }
-.rightSiteSide{
-    margin: 15px 10px 15px;
-}
 .rightSiteSide .fa{
     font-size: 25px;
 }
-    
-    
+
+
 }
 
 @media(min-width:768px){
@@ -65,11 +62,8 @@
 .textrespo{
     font-size: 1.0rem;
 }
-.rightSiteSide{
-    margin: 25px 15px 15px;
-}
-    
-    
+
+
 }
 
 
@@ -96,13 +90,10 @@
 .h3respo{
     font-size: 1.4rem;
 }
-.rightSiteSide{
-    margin: 40px 20px 40px;
-}
 .rightSiteSide .fa{
     font-size: 35px;
-}    
-    
+}
+
 }
 
 @media(min-width:1200px){
@@ -115,7 +106,7 @@
 .rayhanSection .rayhan{
     top: 70%;
     left: 45%;
-} 
-    
-    
+}
+
+
 }

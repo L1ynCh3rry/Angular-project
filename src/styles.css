@@ -148,7 +148,9 @@ a:hover{
     -o-animation: LinearGradientBackground 27s ease infinite;
     animation: LinearGradientBackground 27s ease infinite;
 }
-
+.form-control:focus {
+    box-shadow: none!important;
+}
 
 /* BACKGROUND ANIMATIONs */
 @-webkit-keyframes LinearGradientBackground {
