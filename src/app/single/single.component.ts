@@ -10,7 +10,7 @@ export class SingleComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    $(function () {
+  /*  $(function () {
                     $(".form-contact").validate({
                         highlight: function (element) {
                             $(element).closest('.form-group').addClass("has-danger");
@@ -56,7 +56,7 @@ export class SingleComponent implements OnInit {
                         }
 
                     });
-                });
+                });  */
   }
 
 }

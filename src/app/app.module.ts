@@ -13,6 +13,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
 import { AsideComponent } from './aside/aside.component';
 import { ToggleMenuComponent } from './toggle-menu/toggle-menu.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -62,7 +63,8 @@ const appRoutes: Routes = [
     GalleryComponent,
     ContactComponent,
     AsideComponent,
-    ToggleMenuComponent
+    ToggleMenuComponent,
+    FooterComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
