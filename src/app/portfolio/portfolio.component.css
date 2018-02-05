@@ -2,10 +2,10 @@
     position: relative;
 }
 img.mh215{
-    max-height: 215px;
+    max-height: 210px;
 }
 img.mh255{
-    max-height: 255px;
+    max-height: 250px;
 }
 /* PORTFOLIO LINKED TEXT */
 .linkedtext h2{
@@ -17,3 +17,5 @@ img.mh255{
     color: white;
     border-bottom: 1px solid white!important;
 }
+
+.grid-item { width: 357px; }
