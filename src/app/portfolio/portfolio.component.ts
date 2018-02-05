@@ -11,8 +11,7 @@ export class PortfolioComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
-
+  
     /* ===================  Mini grid ======================= */
     /*
 $(window).on('resize', function () {
